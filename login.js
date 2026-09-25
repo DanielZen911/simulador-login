@@ -10,7 +10,7 @@ function verificarCredenciales(usuario, contrasena) {
 }
 
 function validarAcceso() {
-    let intentos = 1;
+    let intentos = 0;
     let accesoConcedido = false;
 
     while (intentos <= 3 && accesoConcedido === false) {
