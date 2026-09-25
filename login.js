@@ -13,7 +13,7 @@ function validarAcceso() {
     let intentos = 0;
     let accesoConcedido = false;
 
-    while (intentos <= 3 && accesoConcedido === false) {
+    while (intentos < 3 && accesoConcedido === false) {
         
         let usuarioIngresado = prompt(`Ingrese su usuario:`);
         let contrasenaIngresada = prompt(`Ingrese su contraseña:`);
