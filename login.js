@@ -24,7 +24,7 @@ function validarAcceso() {
             alert(`¡Bienvenido al sistema!`);
             accesoConcedido = true; 
         } else {
-            if (intentos < 3) {
+            if (intentos < 2) {
                 intentos++;
                 alert(`Datos incorrectos. Intento ${intentos} de 3.`);
             } else {
